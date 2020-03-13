@@ -1,24 +1,24 @@
 # Writer-Recognition---Using-RNN
 
-### 1. Codes folder:
+### 1. Codes/
 * Codes folder contain two model: LSTM, GRU
 ### How to run 
 1. put the dataset in the data-folder
 2. setup the path of training-data in the `main` function -> `path_train`
 3. setup the path of testing-data in the `main` function -> `path_test`
 4. the `main` function :
-    * LSTM on 10-classification: lstm/main_lstm_10.py
-    * LSTM on 107-classification: lstm/main_lstm_107.py
-    * GRU on 10-classification: gru/main_gur_10.py
-    * GRU on 107-classification: gru/main_gru_107.py
+    * LSTM on 10-classes: lstm/main_lstm_10.py
+    * LSTM on 107-classes: lstm/main_lstm_107.py
+    * GRU on 10-classes: gru/main_gur_10.py
+    * GRU on 107-classes: gru/main_gru_107.py
 5. the output:
-    
-运行输出以下内容： 
-（1）每次迭代的loss（自动保存成） 
-（2）训练时间training time 
-（3）测试集中单个RHS准确率 
-（4）测试集中投票结果RHS准确率 并且自动保存模型在model文件夹里，可供test测试
+    * loss for each epoch (save automatically)
+    * training time
+    * the accuracy for one RHS
+    * the accuracy for RHS(using Emsemble method), and save the model in the folder: model
 
-2.TestCodes/ #测试代码，含test.py 
-将待运行的验证集Validation_with_labels放到TestCodes文件夹底下 
-使用命令''python test.py --testfolder ../Validation_with_labels（测试目录） --num_class 10（或107，分类类别数）''运行test.py；
+### 2. TestCodes/
+* put the validation-set(`Validation_with_labels`)into TestCodes folder
+* run `test.py` by `python test.py --testfolder ../Validation_with_labels --num_class 10` where `../Validation_with_labels` is the path of validation set, 10/107 is number of classes
+    
+
