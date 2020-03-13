@@ -11,11 +11,9 @@ writer identification is an important topic for pattern recognition. In this pro
 
 ## Result
 ### LSTM Network Parameters for 10-classes
-|  Data   | number of RHS: 3000 |
-|         | number of RHS: 1000 |   
-|  ----  | ----  |
-| 单元格  | 单元格 |
-| 单元格  | 单元格 |
+| number of chosed RHS  | 3000 <br> 1000 |
+|  -------------------- |-------------
+| Input                 |
 
 
 
