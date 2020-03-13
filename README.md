@@ -1,4 +1,5 @@
 # Writer-Identification---Using-RNN
+<br>
 
 ## Abstract:
 writer identification is an important topic for pattern recognition. In this project, we idnetify the writers by using recurrent neural network
@@ -12,7 +13,6 @@ writer identification is an important topic for pattern recognition. In this pro
 * Goal 2: 107-classes identification
 <br>
 <br>
-
 
 ## Result
 #### 1-1 LSTM Network Parameters for 10-classes and 107-classes
