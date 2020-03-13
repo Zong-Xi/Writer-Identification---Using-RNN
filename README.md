@@ -10,14 +10,7 @@ writer identification is an important topic for pattern recognition. In this pro
 * Goal 2: 107-classes identification
 
 ## Result
-### LSTM Network Parameters for 10-classes
-| parameter of 10-classes |              | 
-|  -------------------- |----------------|
-| number of chosed RHS  | 3000 <br> 1000 |
-| Length of each RHS    | 100 <br> 50    |
-| Feature Dimension     | 3              | 
-| Model                 | LSTM Layer: 2 <br> hidden nodes: 300 <br> Bi-directional <br> size: 200 <br> batch_first: True |
-| Epoch                 | 20             |
+### LSTM Network Parameters for 10-classes and 107-classes
 
 <table> 
 <tr><th> parameter of 10-classes </th><th> parameter of 107-classes </th></tr> 
