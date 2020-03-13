@@ -38,12 +38,14 @@ writer identification is an important topic for pattern recognition. In this pro
 
 
 </td></tr> </table> 
+<br>
 
 #### 1-2 LSTM Result for 10-classes
 | Length of Sequence | Training times(s) | Training Loss | Accuracy for each RHS (100%) | Accuracy for RHS(using Emsemble method)(100%) |
 |----|----|----|----|----|
 |50|722.69|0.1136|96.00|100.00|
 |100|5647.02|0.1170|98.00|100.00|
+<br>
 
 #### 1-3 LSTM Result for 107-classes (different sequence)
 | Length of Sequence | Training times(s) | Training Loss | Accuracy for each RHS (100%) | Accuracy for RHS(using Emsemble method)(100%) |
@@ -51,6 +53,7 @@ writer identification is an important topic for pattern recognition. In this pro
 |50|7912.26|0.3047|86.00|100.00|
 |100|8378.23|0.1542|91.00|100.00|
 |150|8686.45|0.1560|93.00|100.00|
+<br>
 
 #### 1-4 LSTM Result for 107-classes (different hiddensize)
 | Length of Sequence | Training times | Training Loss | Accuracy for each RHS (100%) | Accuracy for RHS(using Emsemble method)(100%) |
@@ -67,6 +70,7 @@ writer identification is an important topic for pattern recognition. In this pro
 | Feature Dimension     | 3              | 
 | Model                 | GRU Layer: 1 <br> hidden nodes: 256 <br> batch size: 200 <br> batch_first: True |
 | Epoch                 | 10             |
+<br>
 
 #### 2-2 GRU Result for 107-classes (different sequence)
 | Length of Sequence | Training times(s) | Training Loss | Accuracy for each RHS | Accuracy for RHS(using Emsemble method) |
@@ -84,9 +88,10 @@ writer identification is an important topic for pattern recognition. In this pro
 * Performance: LSTM is better, because:
    * LSTM model is more complicate, and can learn more important feature
 
-### more details -> in the pdf file: 
+### more details and analysis -> in the pdf file: 書寫者識別-使用RNN.pdf
 
-
+<br>
+<br>
 
 ## Run the Codes
 #### 1 Codes/
