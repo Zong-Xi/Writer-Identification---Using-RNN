@@ -1,5 +1,22 @@
-# Writer-Recognition---Using-RNN
+# Writer-Identification---Using-RNN
 
+## Abstract:
+writer identification is an important topic for pattern recognition. In this project, we idnetify the writers by using recurrent neural network
+
+## Problem Description
+* the handwriting data(500 Chinese character) was collected from each classmate 
+* 300 character for training set, 100 character for validation set, 100 for testing(private, for TA to test the model) 
+* Goal 1: 10-classes identification (10 classmate whose handwriting is far different from each other)
+* Goal 2: 107-classes identification
+
+## 
+
+
+
+
+
+
+## Run the Codes
 ### 1. Codes/
 * Codes folder contain two model: LSTM, GRU
 ### How to run 
