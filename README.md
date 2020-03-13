@@ -9,8 +9,13 @@ writer identification is an important topic for pattern recognition. In this pro
 * Goal 1: 10-classes identification (10 classmate whose handwriting is far different from each other)
 * Goal 2: 107-classes identification
 
-## 
-
+## Result
+### LSTM Network Parameters for 10-classes
+|  Data   | number of RHS: 3000 |
+|         | number of RHS: 1000 |   
+|  ----  | ----  |
+| 单元格  | 单元格 |
+| 单元格  | 单元格 |
 
 
 
