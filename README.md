@@ -15,8 +15,8 @@
     * loss for each epoch (save automatically)
     * training time
     * the accuracy for one RHS
-    * the accuracy for RHS(using Emsemble method), and save the model in the folder: model
-
+    * the accuracy for RHS(using Emsemble method), and save the model in the model-folder
+    
 ### 2. TestCodes/
 * put the validation-set(`Validation_with_labels`)into TestCodes folder
 * run `test.py` by `python test.py --testfolder ../Validation_with_labels --num_class 10` where `../Validation_with_labels` is the path of validation set, 10/107 is number of classes
