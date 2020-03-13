@@ -11,11 +11,36 @@ writer identification is an important topic for pattern recognition. In this pro
 
 ## Result
 ### LSTM Network Parameters for 10-classes
+| parameter of 10-classes |              | 
+|  -------------------- |----------------|
 | number of chosed RHS  | 3000 <br> 1000 |
-|  -------------------- |-------------
-| Input                 |
+| Length of each RHS    | 100 <br> 50    |
+| Feature Dimension     | 3              | 
+| Model                 | LSTM Layer: 2 <br> hidden nodes: 300 <br> Bi-directional <br> size: 200 <br> batch_first: True |
+| Epoch                 | 20             |
+
+<table> 
+<tr><th> parameter of 10-classes </th><th> parameter of 107-classes </th></tr> 
+<tr><td> 
+
+| number of chosed RHS  | 3000 / 1000 |
+|  -------------------- |----------------|
+| Length of each RHS    | 50 / 100    |
+| Feature Dimension     | 3              | 
+| Model                 | LSTM Layer: 2 <br> hidden nodes: 300 <br> Bi-directional <br> size: 200 <br> batch_first: True |
+| Epoch                 | 20             |
+
+</td><td> 
+
+| number of chosed RHS  | 3000 / 1000 |
+|  -------------------- |----------------|
+| Length of each RHS    | 50 / 100 / 150 |
+| Feature Dimension     | 3              | 
+| Model                 | LSTM Layer: 2 / 3 <br> hidden nodes: 256 / 500 / 800 <br> Bi-directional <br> size: 200 <br> batch_first: True |
+| Epoch                 | 5             |
 
 
+</td></tr> </table> 
 
 
 
